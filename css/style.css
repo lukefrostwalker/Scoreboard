@@ -19,6 +19,7 @@ body {
     justify-content: space-around;
     width: 575px;
     height: 385px;
+    border-radius: 5px;
     background: #1B244A;
     text-align: center;
 }
@@ -38,12 +39,12 @@ h3 {
     height: 120px;
     margin-bottom: 26px;
     margin-top: 21px;
+    border-radius: 5px;
     background: #080001;
     line-height: 1;
 }
 p {
     height: 73px;
-    border-radius: 5px;
     font-family: cursed_timer_ulilregular;
     font-size: 90px;
     color: #f94f6d;
