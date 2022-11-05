@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('../font/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('../font/cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    text-align: center;
+}
+h3 {
+    margin-bottom: 0;
+    margin-top: 68px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #eee;
+    line-height: 0.8;
+}
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 120px;
+    margin-bottom: 26px;
+    margin-top: 21px;
+    background: #080001;
+    line-height: 1;
+}
+p {
+    height: 73px;
+    border-radius: 5px;
+    font-family: cursed_timer_ulilregular;
+    font-size: 90px;
+    color: #f94f6d;
+}
+.btn-ctnr {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    width: 45px;
+    height: 45px;
+    border:2px solid #9aabd8 ;
+    border-radius: 5px;
+    background: transparent;
+    font-family: cursed_timer_ulilregular;
+    font-size: 18px;
+    color: #647cbe;
+    line-height: 2.5;
+}
+button.reset {
+    line-height: 1.89;
+    height: 35px;
+    width: 120px;
+    position: relative;
+    bottom: 55px;
+}
